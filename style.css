@@ -1,9 +1,59 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .half-width{
-    width: 45%;
+    width: 40%;
+    float: left;
+    
 }
 .head-bg{
-    background-color:blue ;
+    background-image:url("Image/header-bg.png");
+    background-repeat: no-repeat;
+  height: 800px;
+ background-size:1520px;
+}
+.half-width img{
+    width: 90%;
+   
+}
+#heading{
+    padding: 200px 0px 0px 200px;
+}
+#peter{
+    padding:130px  20px 0px 0px;
+}
+h1{
+    color: rgb(229, 30, 96) ;
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+.link-button{
+    text-decoration:none ;
+    background-image:linear-gradient(45deg, rgb(236, 67, 123) , rgb(229, 26, 77)) ;
+    background-color: rgb(229, 30, 96);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+   
+}
+.biography-bg{
+    background-image:url("Image/biography-bg.png");
+    background-repeat: no-repeat;
+  height: 650px;
+ background-size:1520px;
+}
+#bio img{
+    width: 70%;
+    padding: 100px 10px 0px 200px;
+}
+p{
+    color:dimgray;
+}
+#bio-data{
+    padding: 400px 10px 0px 50px;
 }
